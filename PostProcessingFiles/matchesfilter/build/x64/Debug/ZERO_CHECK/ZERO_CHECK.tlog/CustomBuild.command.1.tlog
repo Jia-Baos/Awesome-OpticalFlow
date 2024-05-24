@@ -1,0 +1,10 @@
+^D:\CODE-VSCODE\TESTFILES\MATCHESFILTER\BUILD\CMAKEFILES\73D7C51F8765AC044DDFDDCF0B8A86B7\GENERATE.STAMP.RULE
+setlocal
+D:\Cmake\bin\cmake.exe -SD:/Code-VSCode/TestFiles/matchesfilter -BD:/Code-VSCode/TestFiles/matchesfilter/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Code-VSCode/TestFiles/matchesfilter/build/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

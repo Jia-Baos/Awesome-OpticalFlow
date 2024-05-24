@@ -1,0 +1,10 @@
+^D:\CODE-VSCODE\TESTFILES\GETDENSITY\BUILD\CMAKEFILES\815CA36FCACD7F73A2CC33DF4CAB108E\GENERATE.STAMP.RULE
+setlocal
+D:\Cmake\bin\cmake.exe -SD:/Code-VSCode/TestFiles/getdensity -BD:/Code-VSCode/TestFiles/getdensity/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Code-VSCode/TestFiles/getdensity/build/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

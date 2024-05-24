@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\CmakeProject\OpticalFlow\PostProcessingFiles\metrics\build\CMakeFiles\1e02635544d3f62f04ca7c0aab1cca1f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{16D659C7-80BC-3B62-B2C3-36E7B5CA2482}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

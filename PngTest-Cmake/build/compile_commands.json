@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/CmakeProject/OpticalFlow/PngTest-Cmake/build",
+  "command": "D:\\MinGW-11.2.0\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\image.c.obj -c D:\\CmakeProject\\OpticalFlow\\PngTest-Cmake\\image.c",
+  "file": "D:/CmakeProject/OpticalFlow/PngTest-Cmake/image.c",
+  "output": "CMakeFiles/main.dir/image.c.obj"
+},
+{
+  "directory": "D:/CmakeProject/OpticalFlow/PngTest-Cmake/build",
+  "command": "D:\\MinGW-11.2.0\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\io.c.obj -c D:\\CmakeProject\\OpticalFlow\\PngTest-Cmake\\io.c",
+  "file": "D:/CmakeProject/OpticalFlow/PngTest-Cmake/io.c",
+  "output": "CMakeFiles/main.dir/io.c.obj"
+},
+{
+  "directory": "D:/CmakeProject/OpticalFlow/PngTest-Cmake/build",
+  "command": "D:\\MinGW-11.2.0\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++20 -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\CmakeProject\\OpticalFlow\\PngTest-Cmake\\main.cpp",
+  "file": "D:/CmakeProject/OpticalFlow/PngTest-Cmake/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/CmakeProject/OpticalFlow/PngTest-Cmake/build",
+  "command": "D:\\MinGW-11.2.0\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++20 -o CMakeFiles\\main.dir\\zlibTest.cpp.obj -c D:\\CmakeProject\\OpticalFlow\\PngTest-Cmake\\zlibTest.cpp",
+  "file": "D:/CmakeProject/OpticalFlow/PngTest-Cmake/zlibTest.cpp",
+  "output": "CMakeFiles/main.dir/zlibTest.cpp.obj"
+}
+]

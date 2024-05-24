@@ -1,0 +1,2 @@
+D:\MinGW-11.2.0\bin\ar.exe qc libimage.a CMakeFiles/image_static.dir/Convert.cpp.obj CMakeFiles/image_static.dir/Convolve.cpp.obj CMakeFiles/image_static.dir/Image.cpp.obj CMakeFiles/image_static.dir/ImageIO.cpp.obj CMakeFiles/image_static.dir/ImageIOpng.cpp.obj CMakeFiles/image_static.dir/RefCntMem.cpp.obj
+D:\MinGW-11.2.0\bin\ranlib.exe libimage.a

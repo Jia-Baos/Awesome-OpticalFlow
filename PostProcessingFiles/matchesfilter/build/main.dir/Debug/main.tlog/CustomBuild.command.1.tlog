@@ -1,0 +1,10 @@
+^D:\CODE-VSCODE\TESTFILES\MATCHESFILTER\CMAKELISTS.TXT
+setlocal
+D:\Cmake\bin\cmake.exe -SD:/Code-VSCode/TestFiles/matchesfilter -BD:/Code-VSCode/TestFiles/matchesfilter/build --check-stamp-file D:/Code-VSCode/TestFiles/matchesfilter/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

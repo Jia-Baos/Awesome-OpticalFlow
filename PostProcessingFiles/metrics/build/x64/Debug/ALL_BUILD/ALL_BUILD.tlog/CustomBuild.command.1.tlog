@@ -1,0 +1,10 @@
+^D:\CMAKEPROJECT\OPTICALFLOW\POSTPROCESSINGFILES\METRICS\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/CmakeProject/OpticalFlow/PostProcessingFiles/metrics -BD:/CmakeProject/OpticalFlow/PostProcessingFiles/metrics/build --check-stamp-file D:/CmakeProject/OpticalFlow/PostProcessingFiles/metrics/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

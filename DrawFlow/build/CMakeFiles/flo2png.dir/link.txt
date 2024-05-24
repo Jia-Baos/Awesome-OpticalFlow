@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\flo2png.dir/objects.a
+D:\MinGW-11.2.0\bin\ar.exe qc CMakeFiles\flo2png.dir/objects.a @CMakeFiles\flo2png.dir\objects1.rsp
+D:\MinGW-11.2.0\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\flo2png.dir/objects.a -Wl,--no-whole-archive -o flo2png.exe -Wl,--out-implib,libflo2png.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\flo2png.dir\linkLibs.rsp

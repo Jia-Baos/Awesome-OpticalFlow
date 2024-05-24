@@ -1,0 +1,10 @@
+^D:\CODE-VSCODE\TESTFILES\RENAME\BUILD\CMAKEFILES\E11A1134BFD26A4B06F70B5D3AB70310\GENERATE.STAMP.RULE
+setlocal
+D:\Cmake\bin\cmake.exe -SD:/Code-VSCode/TestFiles/rename -BD:/Code-VSCode/TestFiles/rename/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Code-VSCode/TestFiles/rename/build/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
