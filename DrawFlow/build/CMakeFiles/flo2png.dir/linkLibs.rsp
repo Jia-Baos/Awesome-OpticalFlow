@@ -1,1 +1,0 @@
-  -LD:/CmakeProject/OpticalFlow/DrawFlow/install/lib  -LD:/CmakeProject/OpticalFlow/DrawFlow/imageLib/zlib/lib  -LD:/CmakeProject/OpticalFlow/DrawFlow/imageLib/pnglib/lib  -Wl,-Bstatic -limage -lpng16 -lzlibstatic -Wl,-Bdynamic -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
